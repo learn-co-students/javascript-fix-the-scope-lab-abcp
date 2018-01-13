@@ -5,7 +5,7 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  var animal = `cat`;
+  var animal = 'cat';
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
@@ -20,7 +20,7 @@ function add2(n) {
 
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!";
+    return 'FUNKY!';
   }
 }
 
